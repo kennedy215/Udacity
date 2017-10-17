@@ -1,4 +1,4 @@
-## Fresh Tomatoes - ### Top 10 Horrorday Halloween Movies
+## Fresh Tomatoes - Top 10 Horrorday Halloween Movies
 
 This program features the **top 10 horror movies** that are perfect for October.
 This template also gives you the ability to create you own list!
