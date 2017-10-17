@@ -1,21 +1,21 @@
-#Fresh Tomatoes - Top 10 Horrorday Halloween Movies
+## Fresh Tomatoes - ### Top 10 Horrorday Halloween Movies
 
 This program features the **top 10 horror movies** that are perfect for October.
 This template also gives you the ability to create you own list!
 
 
-##How it works
+## How it works
 
 To see the generated list all you do is open fresh_tomatoes.html in your browser!
 If you'd like add your own list read the directions below.
 
     *the website's fresh tomatoes template was provided by [Udacity](www.Udacity.com))*
 
-##Requirements
+## Requirements
 
 You must have python 2.7 installed. For further instructions please click [here](https://www.python.org/download/releases/2.7/)
 
-##Directions
+## Directions
 
 **Directions** to add a _movie_:
 
@@ -72,9 +72,9 @@ Afterwards your finished! Run the code and you'll see your new list generate! If
 change the other titles repeat the steps given on a different movie in the list!
 
 
-##Liscence
+## Liscence
 
-###MIT License
+### MIT License
 
 Copyright (c) 2017 Kennedy.
 
