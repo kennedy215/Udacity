@@ -4,18 +4,31 @@ This program features the **top 10 horror movies** that are perfect for October.
 This template also gives you the ability to create you own list!
 
 
-## How it works
+## How It Works
 
 To see the generated list all you do is open fresh_tomatoes.html in your browser!
 If you'd like add your own list read the directions below.
 
     *the website's fresh tomatoes template was provided by [Udacity](www.Udacity.com))*
 
+
 ## Requirements
 
 You must have python 2.7 installed. For further instructions please click [here](https://www.python.org/download/releases/2.7/)
 
 ## Directions
+
+### How to Run Application
+
+**Step 1:** Using Terminal:
+Type `python entertainment_center.py`
+
+**Step 2:** Using the Python IDLE:
+Select Run from the IDLE menu,
+Click `Run Module` from the dropdown list
+
+
+### How to Modify Application
 
 **Directions** to add a _movie_:
 
