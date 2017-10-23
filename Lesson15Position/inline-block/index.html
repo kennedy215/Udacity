@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inline-Block Example</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+    }
+    .inline-block {
+      display: inline-block;
+    }
+    .random {
+      border: 2px solid #2e3d49;
+      background-color: #ecc81a;
+      /* no width this time, but you could certainly apply one */
+      height: 40px;
+    }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container">
+    <span>Bacon ipsum dolor amet filet mignon sirloin fatback frankfurter drumstick. Prosciutto leberkas rump pork loin, landjaeger venison sirloin salami shankle short ribs pancetta. Pork boudin doner jowl, sirloin chuck pork chop alcatra bacon cupim shankle. Shank brisket pork belly, swine andouille spare ribs t-bone turducken fatback corned beef ball tip.</span>
+    <div class="random inline-block">This is a random div.</div>
+    <div class="random inline-block">This is a second random div.</div>
+    <span>Capicola beef ribs pastrami fatback filet mignon, drumstick doner alcatra salami picanha. Tenderloin venison shankle chuck capicola ground round chicken prosciutto beef sausage shoulder jerky meatloaf pancetta short loin. Turducken tongue pancetta porchetta beef. Rump meatloaf drumstick alcatra andouille flank porchetta ball tip boudin corned beef bacon ribeye short ribs cupim shoulder.</span>
+  </div>
+</body>
+</html>
