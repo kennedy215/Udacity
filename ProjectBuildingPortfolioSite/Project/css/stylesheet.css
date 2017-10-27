@@ -2,19 +2,23 @@ body,h1,h2,p{
   color:black;
   padding:20px;
 }
+
 img{
   padding:10px;
   max-width:100%;
 }
+
 .single_line_adjustment{
   width:100%;
 }
+
 .container{
   width:100%;
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
 }
+
 .container-flex{
   padding: 0px;
   margin: 0;
@@ -22,12 +26,14 @@ img{
   display: flex;
   justify-content: space-around;
 }
+
 .container_subject{
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
   /*align-items: center;*/
 }
+
 @media screen and (min-width:801px){
   body{background-color:white;}
   .header{
@@ -35,54 +41,64 @@ img{
     background-color:red;
     height:100px;order:1;
   }
+
   .flex-box{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
   }
+
   .logo{
     width:60px;
     height:60px;
   }
+
   .nav{
     width:100%;
     background-color:yellow;
-    bottom:0px;
+    /*bottom:0px;*/
     height:60px;
-    position:fixed;order:6;
-    z-index: 1;
+    order:2;
   }
+
   .header_detail{
     font-size: 10px;
     padding-left:10px;
   }
+
   .main{
     width:100%;
     background-color:blue;
-    height:100%;order:2;
+    height:100%;order:3;
   }
+
   .webdevelopment{
     width:100%;
     background-color:green;
-    height:100%;order:4;
+    height:100%;order:6;
   }
+
   .photography{
     width:100%;
     background-color:gray;
-    height:100%;order:3;
+    height:100%;order:5;
   }
+
   .photography_detail{
     max-width:100%;
   }
+
   .contact{
     width:100%;
     background-color:pink;
-    height:100%;order:5;
+    height:100%;order:7;
   }
+
   .contact_form{
     padding:30px 0px 100px 0px;
   }
+
   .footer{
     width:97%;
     background-color:brown;
@@ -90,8 +106,8 @@ img{
     bottom:0px;
     position:fixed;order:7;
     padding-left:30px;
-    z-index: 2;
   }
+
   .copyright_detail{
     margin-top:-10px;
   }
@@ -105,16 +121,19 @@ img{
   background-color:red;
   height:100px;order:1;
 }
+
 .flex-box{
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
 }
+
 .logo{
   width:60px;
   height:60px;
 }
+
 .nav{
   width:100%;
   background-color:yellow;
@@ -123,36 +142,44 @@ img{
   position:fixed;order:6;
   z-index: 1;
 }
+
 .header_detail{
   font-size: 10px;
   padding-left:10px;
 }
+
 .main{
   width:100%;
   background-color:blue;
   height:100%;order:2;
 }
+
 .webdevelopment{
   width:100%;
   background-color:green;
   height:100%;order:4;
 }
+
 .photography{
   width:100%;
   background-color:gray;
   height:100%;order:3;
 }
+
 .photography_detail{
   max-width:100%;
 }
+
 .contact{
   width:100%;
   background-color:pink;
   height:100%;order:5;
 }
+
 .contact_form{
   padding:30px 0px 100px 0px;
 }
+
 .footer{
   width:97%;
   background-color:brown;
@@ -162,6 +189,7 @@ img{
   padding-left:30px;
   z-index: 2;
 }
+
 .copyright_detail{
   margin-top:-10px;
 }
