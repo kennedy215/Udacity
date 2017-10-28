@@ -8,6 +8,31 @@ img{
   max-width:100%;
 }
 
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:black;
+}
+
+li{
+
+}
+
+li a{
+  display:block;
+  color:white;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: teal;
+  transition-duration: .3s;
+}
+
 .single_line_adjustment{
   width:100%;
 }
@@ -56,7 +81,7 @@ img{
 
   .nav{
     width:100%;
-    background-color:yellow;
+    /*background-color:teal;*/
     /*bottom:0px;*/
     height:60px;
     order:2;
@@ -133,11 +158,11 @@ img{
 
 .nav{
   width:100%;
-  background-color:yellow;
+  /*background-color:teal;*/
   bottom:0px;
-  height:60px;
+  height:80px;
   position:fixed;order:6;
-  z-index: 1;
+  /*z-index: 1;*/
 }
 
 .header_detail{
