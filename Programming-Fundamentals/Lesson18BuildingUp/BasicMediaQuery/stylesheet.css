@@ -1,0 +1,8 @@
+/*This is activated when window is wider than 500px. */
+
+body{
+  background-color:red;
+}
+h1{
+  font-size:200px;
+}
